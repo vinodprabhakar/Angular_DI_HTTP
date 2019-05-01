@@ -6,7 +6,7 @@ import "rxjs/Rx";
 
 @Injectable()
 export class ProductService {
-  private _api = '../api/products/products.json';
+  private _api = 'https://api.myjson.com/bins/qtao8';
 
   constructor(private _http: Http) { }
 
